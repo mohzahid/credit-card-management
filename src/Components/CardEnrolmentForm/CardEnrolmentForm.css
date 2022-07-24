@@ -1,0 +1,15 @@
+.head-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-text-mod {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.head-text {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}

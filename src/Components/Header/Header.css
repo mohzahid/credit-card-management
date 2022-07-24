@@ -1,0 +1,10 @@
+.head-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.head-text {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}

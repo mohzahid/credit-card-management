@@ -1,0 +1,11 @@
+.head-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.head-text {
+    font-size: small;
+    text-align: left;
+    margin-top: auto;
+    margin-left: 10px;
+}
