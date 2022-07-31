@@ -3,7 +3,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div classname="head-container">
+        <div className="head-container">
             <h1 className="head-text">Credit Card System</h1>
         </div>
     )
