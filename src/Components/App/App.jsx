@@ -5,7 +5,7 @@ import Header from '../Header/Header';
 import Function from '../Function/Function';
 import CardEnrolmentForm from '../CardEnrolmentForm/CardEnrolmentForm';
 import ExistingCardsList from '../ExistingCardsList/ExistingCardsList';
-import CardItem from '../CardItem/CardItem';
+
 
 class App extends React.Component {
 
@@ -19,7 +19,7 @@ class App extends React.Component {
 
   updateListOnFormSubmit = (val) => {
 
-    console.log("UpdateList-1" + val.cardHolderName + "card Number" + val.cardNumber + "card Limit" + val.cardLimit);
+    console.log("updateListOnFormSubmit - " + val.cardHolderName + "card Number - " + val.cardNumber + "card Limit - " + val.cardLimit);
 
     var items = this.state.cardsList;
 
@@ -27,7 +27,7 @@ class App extends React.Component {
       cardHolderName: val.cardHolderName,
       cardNumber: val.cardNumber,
       cardLimit: val.cardLimit,
-      cardBalance: 0
+      cardBalance: val.cardLimit
     });
 
     this.setState({
@@ -56,9 +56,6 @@ class App extends React.Component {
           //alert('Result Error');
         }
       );
-
-    alert("Did Mount Is invoked-2");
-
   }
 
 

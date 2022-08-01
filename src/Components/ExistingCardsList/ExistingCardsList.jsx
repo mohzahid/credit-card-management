@@ -3,10 +3,6 @@ import CardItem from "../CardItem/CardItem";
 
 
 const ExistingCardsList = (props) => {
-    //function ExistingCardsList({ cardList }) {
-
-    //console.log("I am in ExistingCard--");
-    //console.log(props);
 
     const CardItems = props.cardsList.map(cardItem => <CardItem key={cardItem.cardNumer} cardItem={cardItem} />);
 

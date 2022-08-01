@@ -3,7 +3,7 @@ import React from "react";
 const Function = () => {
     return (
         <div className="head-container">
-            <h2 className="head-text">Add</h2>
+            <h3 className="head-text">Add</h3>
         </div>
     )
 }
