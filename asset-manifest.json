@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/credit-card-management/static/css/main.02e5980e.css",
+    "main.js": "/credit-card-management/static/js/main.92ca9989.js",
+    "static/js/787.83d3bbbf.chunk.js": "/credit-card-management/static/js/787.83d3bbbf.chunk.js",
+    "index.html": "/credit-card-management/index.html",
+    "main.02e5980e.css.map": "/credit-card-management/static/css/main.02e5980e.css.map",
+    "main.92ca9989.js.map": "/credit-card-management/static/js/main.92ca9989.js.map",
+    "787.83d3bbbf.chunk.js.map": "/credit-card-management/static/js/787.83d3bbbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02e5980e.css",
+    "static/js/main.92ca9989.js"
+  ]
+}
